@@ -8,6 +8,7 @@ DEBUG = True
 
 # Connect to the database
 
+SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 # TODO IMPLEMENT DATABASE URL
 SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:Maxximus2013@localhost:5432/fyyur'
